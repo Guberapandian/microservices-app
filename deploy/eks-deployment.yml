@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: <ECR_REPO>/product-service:latest
+        image: 762233769537.dkr.ecr.ap-southeast-1.amazonaws.com/micro/product-service:latest
         ports:
         - containerPort: 8080
 ---
@@ -34,6 +34,6 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: <ECR_REPO>/user-service:latest
+        image: 762233769537.dkr.ecr.ap-southeast-1.amazonaws.com/micro/user-service:latest
         ports:
         - containerPort: 8081
